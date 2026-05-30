@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Large model artifacts — do NOT commit adapter weights
+results/*/adapter_*/
+results/*/final_adapter/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Raw corpus JSONL — large, regenerable
+results/*/*.jsonl
+
+# HuggingFace cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep result CSVs and logs — small and important
+!results/**/*.csv
+!results/**/*.log
+!logs/*.log

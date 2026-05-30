@@ -1,0 +1,27 @@
+{
+  "name": "stagecraft-ablations",
+  "version": "1.0.0",
+  "description": "TCBB ablation studies for StageCraft: Gate vs No-Gate, Gate Decomposition, RAG vs No-RAG",
+  "main": "scripts/cli.js",
+  "bin": {
+    "ablate": "./scripts/cli.js"
+  },
+  "scripts": {
+    "run:rag":   "node scripts/cli.js run rag",
+    "run:gate":  "node scripts/cli.js run gate",
+    "run:decomp":"node scripts/cli.js run decomp",
+    "run:all":   "node scripts/cli.js run all",
+    "status":    "node scripts/cli.js status",
+    "results":   "node scripts/cli.js results"
+  },
+  "dependencies": {
+    "chalk":    "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "commander": "^12.1.0",
+    "ora":      "^8.0.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

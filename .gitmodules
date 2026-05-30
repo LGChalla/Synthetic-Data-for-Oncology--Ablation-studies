@@ -1,0 +1,3 @@
+[submodule "stagecraft"]
+	path = stagecraft
+	url = https://github.com/LGChalla/Synthetic-Data-Generation-for-Lung-Cancer-Staging-Using-LLMs.git
