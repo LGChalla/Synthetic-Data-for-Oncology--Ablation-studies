@@ -1,6 +1,6 @@
 # StageCraft — TCBB Ablation Studies
 
-Extension of [StageCraft (BIBM 2026)](https://github.com/LGChalla/Synthetic-Data-Generation-for-Lung-Cancer-Staging-Using-LLMs) with three controlled ablation experiments for the IEEE/ACM TCBB journal submission.
+#Extension of [StageCraft (BIBM 2026)](https://github.com/LGChalla/Synthetic-Data-Generation-for-Lung-Cancer-Staging-Using-LLMs) with three controlled ablation experiments for the IEEE/ACM TCBB journal submission.
 
 ## Ablations
 
