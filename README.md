@@ -71,7 +71,7 @@ node scripts/cli.js push "message"   # commit + push to GitHub
 
 ## Compute
 
-- GPU: H200 recommended
+
 - Models: Llama-3.3-70B-Instruct, ClinicalCamel-70B (4-bit NF4 quantisation)
 - Fine-tuning: Llama-3-8B-Instruct via QLoRA (identical config to BIBM)
-- Estimated runtime per ablation: ~4–6 hours
+
